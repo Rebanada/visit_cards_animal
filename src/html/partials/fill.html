@@ -1,0 +1,53 @@
+<fieldset class="fill js_fill js-fieldset">
+        <div class="fill__unfold js_fill-color__unfold js-fieldset__header">
+            <div class="fill__description">
+                <i class="fa-solid fa-keyboard" style="color: #e17334;"></i>
+                <h2 class="fill__title">rellena</h2>
+            </div>
+            <div>
+                <i class="fa-solid fa-chevron-down fill__arrow js_arrow"></i>
+            </div>
+        </div>
+        <div class="fillform js_fillform collapsed js-fieldset__container">
+            <!--<form class="main-form" action="">-->
+                <label class="main-form__label" for="name">
+                    <span class="main-form__span">Nombre completo</span>
+                    <input class="casillarespuesta js-name" type="text" id="name" name="nombre" placeholder="Ej: Sally Hill"
+                        required />
+                </label>
+                <label class="main-form__label" for="job">
+                    <span class="main-form__span">Puesto</span>
+                    <input class="casillarespuesta js-job" type="text" id="job" name="Puesto" placeholder="Ej: Front-end unicorn"
+                        required />
+                </label>
+                <label class="main-form__label" for="añadirimg">
+                    <span class="main-form__span">Imagen de perfil</span>
+                    <nav class="inlineimg">
+                        <label class="action__upload-btn botom" for="img-selector">Añadir imagen</label>
+                        <input type="file" id="img-selector" class="add-image action__hiddenField js__profile-upload-btn"></input>
+                        <div class="casillarespuestapequeña profile__preview js__profile-preview"></div>
+                    </nav>
+                </label>
+                <label class="main-form__label" for="email">
+                    <span class="main-form__span">Email</span>
+                    <input class="casillarespuesta js-mail" type="email" id="email" name="email"
+                        placeholder="Ej: sally-hill@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required />
+                </label>
+                <label class="main-form__label" for="phone" class="main__form--tlf">
+                    <span class="main-form__span">Teléfono</span>
+                    <input class="casillarespuesta js-phone" type="tel" id="phone" name="Teléfono" placeholder="Ej: 555-55-55" pattern="[0-9]{9}" required/>
+                </label>
+                <label class="main-form__label" for="linkedin">
+                    <span class="main-form__span">Linkedin</span>
+                    <input class="casillarespuesta js-linkedin" type="text" id="linkedin" name="linkedin"
+                        placeholder="Ej: linkedin.com/in/sally.hill" required />
+                </label>
+                <label class="main-form__label" for="github">
+                    <span class="main-form__span">Github</span>
+                    <input class="casillarespuesta js-github" type="text" id="github" name="github" placeholder="Ej: @sally-hill"
+                        required />
+                </label>
+            <!--</form>--></div>
+        </fieldset>
+    <div class="separator"></div>
+
